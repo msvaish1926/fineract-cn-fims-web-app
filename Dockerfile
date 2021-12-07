@@ -12,7 +12,7 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Host Fims web app on Nginx
-FROM bitnami/nginx:1.17.4
+FROM bitnami/nginx:1.20
 
 RUN rm -f /etc/nginx/nginx.conf
 
